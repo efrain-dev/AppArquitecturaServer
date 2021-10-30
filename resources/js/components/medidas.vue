@@ -89,7 +89,7 @@ export default {
     },
     methods:{
         getMedidas(){
-            axios.get(this.url+'/medidas/ver').then((res) => {this.items = res.data; console.log(res.data)})
+            axios.get(this.url+'/medidas/ver').then((res) => {this.items = res.data; this.totalRows = this.items.length})
         }
     }
 

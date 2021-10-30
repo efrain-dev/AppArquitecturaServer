@@ -25,7 +25,7 @@
     <div class="container px-4 px-lg-5">
         <a class="navbar-brand" href="">GRUPO ARQUI</a>
 
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class=" navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto py-4 py-lg-0">
                 <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{route('home')}}">INICIO</a></li>
                 <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{route('about')}}">SOBRE NOSOTROS</a></li>
